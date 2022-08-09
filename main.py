@@ -1,7 +1,9 @@
 def addition(l):
-    #SUM CALCULATION
+    """This function calculates sum of list"""
     return sum(l)
 
 def divison(x, y):
-    #SUM DIVISION
+    """THIS FUNCTION DIVIDES TWO NUMBERS"""
     return sum(x / y)
+
+def
