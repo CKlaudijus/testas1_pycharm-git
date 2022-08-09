@@ -15,3 +15,13 @@ class Automobilis:
 
     def auto_degalu_pildymas(self):
         print("Degalai įpilti")
+
+"""FINISHING PROGRAM WITH CLASS IN A CLASS"""
+
+
+class Elektromobilis(Automobilis):
+    def auto_degalu_pildymas(self):
+        print("Baterija įkrauta")
+
+    def vaziuoti_autonomiskai(self):
+        print("Važiuoja autonomiškai")
